@@ -1,0 +1,328 @@
+body{
+    background-color: #181818;
+    margin: auto;
+    padding: 0;
+    margin: 0;
+}
+
+html{
+    scroll-behavior:smooth
+}
+
+header{
+    display: flex;
+    flex-direction: row;
+    text-align: justify;
+}
+
+#hamburger-icon{
+    display: none;
+    cursor: pointer;
+    padding: 10px;
+}
+
+.line{
+    width: 30px;
+    height: 3px;
+    background-color: #181818;
+    margin: 6px 0;
+}
+
+.navbar{
+    background: transparent;
+    backdrop-filter: blur(10px);
+    width: 100%;
+    position: fixed;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    top: 0;
+    height: auto;
+    z-index: 3;
+}
+
+#links {
+    margin-right: 3% !important;
+}
+
+.direct{
+    display: flex;
+    gap: 20px;
+    align-items: center;
+}
+
+.navbar li{
+    text-decoration: none;
+    align-items: stretch;
+    display: inline;
+    font-family: "Arimo", sans-serif;
+    font-weight: 500;
+    font-size: 20px;
+    white-space: nowrap;
+}
+
+.navbar a{
+    text-decoration: none;
+    color: #ececec;
+    margin-left: auto;
+}
+
+.curr{
+    color: #D37F31 !important;
+    font-weight: bolder;
+}
+
+.direct a:hover {
+    color: #D37F31;
+    font-weight: bolder;
+}
+
+.navbar-logo{
+    margin-right: auto;
+    width: 30%;
+    height: 30%;
+    margin-left: 3%;
+    margin-top: 0.5%;
+}
+
+img.navbar-img{
+    height: 100%;
+    max-width: 80%;
+    align-items: flex-start;
+}
+
+video{
+    width: 100%;
+    height: auto;
+}
+
+.overlay{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 50%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 1;
+}
+
+.video-container{
+    position: relative;
+    width: 100%;
+    margin-bottom: 5%;
+}
+
+.frontpage{
+    margin-left: 5%;
+    flex-direction: column;
+    justify-content: space-between;
+    z-index: 2;
+}
+
+h1{
+    margin: 0;
+    color: #ececec;
+    font-size: 50px;
+    margin-top: 7%;
+    font-family: "Arimo", sans-serif;
+}
+
+.home-tagline{
+    color: #ececec;
+    font-size: 25px;
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    font-variation-settings:
+        "slnt" 0;
+    font-weight: 300;
+}
+
+.home-slider-list{
+    transition: all 0.3s ease;
+}
+
+.home-slider-list img{
+    width: 800px;
+    transition: all 0.3s ease;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.home-slider{
+    display: none;
+    position: relative;
+    width: 100%;
+}
+
+.home-slider-div{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.main{
+    display: block;
+}
+
+.navigation-buttons {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+}
+
+.navigation-buttons .prev {
+    position: absolute;
+    z-index: 10;
+    color: #ececec;
+    font-size: 70px;
+    left: 15%;
+}
+
+.navigation-buttons .next {
+    position: absolute;
+    color: #ececec;
+    font-size: 70px;
+    z-index: 10;
+    right: 15%;
+}
+
+.navigation-buttons .nav-button {
+    border-radius: 20%;
+    background-color: #181818;
+    width: 60px;
+    height: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 5px;
+    z-index: 1;
+}
+
+.navigation-buttons .prev:hover{
+    color: #D37F31;
+    font-size: 75px;
+}
+
+.navigation-buttons .next:hover{
+    color: #D37F31;
+    font-size: 75px;
+}
+
+.slider-hover{
+    display: none;
+    background: rgba(24,24,24,0.6);
+    opacity: 0;
+    position: absolute;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 1;
+    transition: 0.4s;
+    font-size: 30px;
+    text-shadow: 3px;
+    color:#ececec;
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    font-variation-settings:
+        "slnt" 0;
+    font-weight: 600;
+    text-decoration: none !important;
+}
+
+.slider-hover:hover{
+    opacity: 1;
+}
+
+button{
+    border: 0;
+}
+
+.our-gallery-text{
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    font-variation-settings:
+        "slnt" 0;
+    font-weight: 500;
+    font-size: 24px;
+    color: #ececec;
+    margin-left: 10%;
+}
+
+.gallery-cars-list{
+    margin-left: 10%;
+    display: flex;
+    justify-content: start;
+    flex-wrap: wrap;
+    gap: 50px;
+}
+
+.image-list-home{
+    margin-right: 9%;
+    width: 15%;
+}
+
+.home-img {
+    display: flex;
+    flex-direction: column;
+}
+
+.home-img img {
+    width: 270px;
+    height: 153px;
+}
+
+.brand{
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    font-variation-settings:
+        "slnt" 0;
+    color: #ececec;
+    font-size: 20px;
+    font-weight: 600;
+    margin: 0;
+    margin-top: 5px;
+}
+
+.brand-price{
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    font-variation-settings:
+        "slnt" 0;
+    color: #ececec;
+    font-size: 20px;
+    margin: 0;
+    margin-top: 5px;
+    font-weight: 300;
+}
+
+footer{
+    margin-top: 3%;
+}
+
+.copyright{
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    font-variation-settings:
+        "slnt" 0;
+    color: #181818;
+    background-color: #ececec;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 11px;
+}

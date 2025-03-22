@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DiamondCut Motors</title>
+    <link rel="stylesheet" href="../css/Login/Login New Acc (Default)/loginpagestyle.css" />
+    <link rel="stylesheet" href="../css/Login/Login New Acc (Default)/loginpagestyle_tablet.css" />
+    <link rel="stylesheet" href="../css/Login/Login New Acc (Default)/loginpagestyle_phone.css" />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Arimo:ital,wght@0,400..700;1,400..700&family=Inter:wght@100..900&family=Nunito+Sans:opsz,wght@6..12,500&family=Poppins:wght@300&display=swap" rel="stylesheet"></head>
+</head>
+<body>
+    <header>
+        <nav class="navbar">
+            <div class="navbar-logo">
+                <img class="navbar-img" src="../assets/logo_white.png" alt="">
+            </div>
+            <div id="links">
+                <ul class="direct">
+                    <li><a href="homepage.html">Home</a></li>
+                    <li><a href="carspage.html">Cars</a></li>
+                    <li><a href="showroompage.html">Showroom</a></li>
+                    <li><a href="aboutuspage.html">About Us</a></li>
+                    <li><a class="curr" href="loginpage.html">Login</a></li>
+                </ul>
+            </div>
+            <div id="hamburger-icon" onclick="hamburger()">
+                <div class="line"></div>
+                <div class="line"></div>
+                <div class="line"></div>
+            </div>
+        </nav>
+    </header>
+    <div class="login-form">
+        <div class="register-title">
+            <h3>Register</h3>
+        </div>
+        <div class="login-form-form">
+            <form action="">
+                <label for="uname">Username</label>
+                <input type="text" id="uname" name="uname" placeholder="Enter Username" required>
+                
+                <label for="email">Email</label>
+                <input type="text" id="email" name="email" placeholder="Enter Email" required>
+                
+                <label for="phone">Phone Number</label>
+                <input type="text" id="phone" name="phone" placeholder="Enter Phone Number" required>
+    
+                <label for="pw">Password</label>
+                <input type="password" id="pw" name="pw" placeholder="Enter Password" required>
+                <div class="pw-c-wrap">
+                    <input type="checkbox" id="pw-c" onclick="visibility()">
+                    <label for="pw-c">Show Password</label>
+                </div>
+                
+                <label class="pw1-class" for="pw1">Confirm Password</label>
+                <input type="password" id="pw1" name="pw1" placeholder="Enter Passowrd" required>
+                <div class="pw-c-wrap">
+                    <input type="checkbox" id="pw-c-1" onclick="visibility1()">
+                    <label for="pw-c-1">Show Password</label>
+                </div>
+                
+                <label class="pw1-class" for="gender-input">Gender</label>
+                <div class="gender-input-1">
+                    <input class="first" type="radio" id="gender-1" name="gender-input" value="Male">
+                    <label for="gender-1">Male</label>
+                    
+                    <input type="radio" id="gender-2" name="gender-input" value="Female">
+                    <label for="gender-2">Female</label>
+                    
+                    <input type="radio" id="gender-3" name="gender-input" value="Others">
+                    <label for="gender-3">Others</label>
+                </div>
+
+                <div class="tac pw1-class">    
+                    <input class="checkbox-tac" type="checkbox" id="terms" required>
+                    <label for="terms" class="tac-label">I understand and accept the terms and conditions.</label>
+                </div>
+                
+            </form>
+            <div class="wrap">
+                <button type="submit" onclick="validateData()">REGISTER</button>
+            </div>
+        </div>
+        <div class="have-acc-div">
+            <a href="loginoldaccpage.html">Already have an account?</a>
+        </div>
+    </div>
+    <footer>
+        <div class="copyright">
+            <p>Copyright © 2024 DiamondCut Motors. All Rights Reserved.</p>
+        </div>
+    </footer>
+
+    <script type="text/javascript" src="../js/navbarscript.js"></script>
+    <script type="text/javascript" src="../js/loginvalidation.js"></script>
+    <script type="text/javascript" src="../js/togglevisibilityscript.js"></script>
+</body>
+</html>

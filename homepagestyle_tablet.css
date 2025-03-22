@@ -1,0 +1,93 @@
+@media (max-width: 768px) {
+    .navbar-logo{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .direct{
+        padding-left: 0;
+    }
+
+    .navbar li{
+        font-size: 14px;
+    }
+
+    .frontpage{
+        padding-top: 7%;
+        margin-left: 5%;
+        margin-right: 5%;
+    }
+
+    h1{
+        font-size: 35px;
+    }
+
+    .home-tagline{
+        font-size: 18px;
+        margin-top: 2%;
+        margin-bottom: 3%;
+    }
+
+    .home-slider-list img{
+        width: 300px;
+    }
+
+    .navigation-buttons .prev{
+        font-size: 50px;
+        width: 10px;
+    }
+
+    .navigation-buttons .next{
+        font-size: 50px;
+        width: 10px;
+    }
+
+    .navigation-buttons .prev:hover{
+        color: #D37F31;
+        font-size: 55px;
+    }
+    
+    .navigation-buttons .next:hover{
+        color: #D37F31;
+        font-size: 55px;
+    }
+
+    .our-gallery-text{
+        font-size: 18px;
+        margin-left: 0;
+    }
+
+    .our-gallery{
+        margin-top: 3%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .home-img img{
+        width: 200px;
+        height: 115px;
+    }
+
+    .brand{
+        font-size: 14px;
+    }
+
+    .brand-price{
+        font-size: 12px;
+    }
+
+    .gallery-cars-list{
+        margin-left: 0;
+        justify-content: center;
+    }
+
+    .copyright{
+        font-size: 8px;
+    }
+
+    footer{
+        margin-top: 5%;
+    }
+}

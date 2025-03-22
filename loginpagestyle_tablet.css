@@ -1,0 +1,80 @@
+@media (max-width: 768px){
+    .navbar-logo{
+        display: flex;
+        flex-direction: column;
+    }
+    
+    .direct{
+        padding-left: 0;
+    }
+
+    .navbar li{
+        font-size: 14px;
+    }   
+
+    .login-form{
+        margin-top: 14%;
+        font-size: 14px;
+    }
+
+    h3{
+        font-size: 22px;
+        margin-bottom: 3%;
+    }
+
+    input{
+        font-size: 11px;
+    }
+
+    .gender-input-1{
+        gap: 3%;
+    }
+
+    .gender-input-1 input{
+        width: 3%;
+        margin-left: 10%;
+    }
+
+    .tac{
+        margin-top: 5%;
+        display: flex;
+        flex-direction: row;
+        gap: 3%;
+    }
+
+    .checkbox-tac{
+        height: 16px;
+    }
+
+    .tac-label{
+        font-size: 13px;
+    }
+
+    button{
+        width: 40%;
+        margin-top: 7%;
+        padding: 10px;
+        font-size: 13px;
+    }
+
+    .have-acc-div a{
+        font-size: 13px;
+    }
+
+    .copyright{
+        font-size: 8px;
+    }
+
+    footer{
+        margin-top: 5%;
+    }
+
+    .pw-c-wrap input{
+        width: 3%;
+    }
+    
+    .pw-c-wrap label{
+        margin-left: 1%;
+        font-size: 12px;
+    }
+}

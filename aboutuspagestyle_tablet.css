@@ -1,0 +1,95 @@
+@media (max-width: 768px){
+    .navbar-logo{
+        display: flex;
+        flex-direction: column;
+        margin-right: 0;
+    }
+    
+    .direct{
+        padding-left: 0;
+    }
+
+    .navbar li{
+        font-size: 14px;
+    }
+
+    .tagline{
+        font-size: 18px;
+        padding-top: 7%;
+        text-align: center;
+        margin-left: 3%;
+        margin-right: 3%;
+    }
+
+    .vision-text{
+        font-size: 18px;
+    }
+
+    .mission-text{
+        font-size: 18px;
+    }
+
+    .hritem-right{
+        height: 1px;
+    }
+
+    .hritem-left{
+        height: 1px;
+    }
+
+    .vision-desc{
+        font-size: 14px;
+    }
+
+    .mission-desc{
+        font-size: 14px;
+    }
+
+    .copyright{
+        font-size: 8px;
+    }
+
+    .contact-us-text{
+        font-size: 18px;
+    }
+
+    .contact-us-socmed a{
+        font-size: 12px;
+    }
+
+    .contact-us-socmed{
+        flex-wrap: wrap;
+        width: 60%;
+        gap: 15px;
+    }
+
+    .instagram{
+        margin-left: 0;
+    }
+
+    .contact-us{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .hritem-contact-up{
+        height: 1px;
+    }
+    
+    .hritem-contact-bottom{
+        height: 1px;
+    }
+
+    .instagram img{
+        max-width: 10% !important;
+    }
+
+    .car-img{
+        margin-top: 18px;
+    }
+
+    footer{
+        margin-top: 5%;
+    }
+}

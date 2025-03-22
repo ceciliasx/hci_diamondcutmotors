@@ -1,0 +1,58 @@
+@media (max-width: 768px){
+    .navbar-logo{
+        display: flex;
+        flex-direction: column;
+    }
+    
+    .direct{
+        padding-left: 0;
+    }
+
+    .navbar li{
+        font-size: 14px;
+    }
+
+    .carousel{
+        height: 240px;
+        width: 360px;
+    }
+
+    .carousel-slider{
+        height: 400px;
+    }
+
+    .indicators{
+        left: 39.5%;
+        top: 330px;
+    }
+
+    .indicators li{
+        margin-right: 4px;
+    }
+
+    .indicators a{
+        height: 12px;
+        width: 12px;
+    }
+    
+    .indicators .active a{
+        width: 12px;
+        height: 12px;
+    }
+
+    .slider-wrapper{
+        height: 200px;
+    }
+
+    .copyright{
+        font-size: 8px;
+    }
+
+    .showroom-gallery-text{
+        font-size: 18px;
+    }
+
+    footer{
+        margin-top: 5%;
+    }
+}

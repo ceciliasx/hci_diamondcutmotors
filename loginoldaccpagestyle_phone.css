@@ -1,0 +1,86 @@
+@media (max-width: 361px){
+    #hamburger-icon{
+        display: block;
+    }
+    
+    #links{
+        display: none;
+    }
+
+    .direct{
+        display: flex;
+        flex-direction: column;
+        position: absolute;
+        top: 53px;
+        right: 0;
+        margin: 0;
+        width: fit-content;
+        background-color: #2c2c2c;
+        padding: 12px;
+    }
+
+    .line{
+        background-color: #ececec;
+    }
+    
+    .direct a:hover{
+        color: #D37F31;
+        font-weight: bolder;
+    }
+
+    .navbar li{
+        font-size: 12px;
+    }
+
+    .login-form{
+        margin-top: 20%;
+        font-size: 12px;
+    }
+
+    h3{
+        font-size: 18px;
+        margin-bottom: 3%;
+    }
+
+    button{
+        font-size: 12px;
+    }
+
+    input{
+        font-size: 10px;
+        padding: 8px;
+    }
+
+    label{
+        margin-top: 4%;
+        margin-bottom: 2%;
+    }
+
+    button{
+        width: 70%;
+        margin-top: 10%;
+        padding: 8px;
+        font-size: 13px;
+    }
+
+    .have-acc-div a{
+        font-size: 11px !important;
+    }
+
+    .copyright{
+        font-size: 8px;
+    }
+
+    footer{
+        margin-top: 10%;
+    }
+
+    .pw-c-wrap input{
+        width: 4%;
+    }
+    
+    .pw-c-wrap label{
+        margin-left: 1.2%;
+        font-size: 10px;
+    }
+}
